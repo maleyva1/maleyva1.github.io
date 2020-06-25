@@ -1,1 +1,1 @@
-Personal Resume/CV site.
+Personal CV/Portfolio Site.
