@@ -1,0 +1,27 @@
+XmlRpcDecodingException	nerdtalk.html#XmlRpcDecodingException	nerdtalk: XmlRpcDecodingException	
+xmlRpcInteger	nerdtalk.html#xmlRpcInteger	XmlRpcItemKind.xmlRpcInteger	
+xmlRpcBoolean	nerdtalk.html#xmlRpcBoolean	XmlRpcItemKind.xmlRpcBoolean	
+xmlRpcString	nerdtalk.html#xmlRpcString	XmlRpcItemKind.xmlRpcString	
+xmlRpcFloat	nerdtalk.html#xmlRpcFloat	XmlRpcItemKind.xmlRpcFloat	
+xmlRpcDateTime	nerdtalk.html#xmlRpcDateTime	XmlRpcItemKind.xmlRpcDateTime	
+xmlRpcBase64	nerdtalk.html#xmlRpcBase64	XmlRpcItemKind.xmlRpcBase64	
+xmlRpcStruct	nerdtalk.html#xmlRpcStruct	XmlRpcItemKind.xmlRpcStruct	
+xmlRpcArray	nerdtalk.html#xmlRpcArray	XmlRpcItemKind.xmlRpcArray	
+XmlRpcItemKind	nerdtalk.html#XmlRpcItemKind	nerdtalk: XmlRpcItemKind	
+methodResponse	nerdtalk.html#methodResponse	XmlRpcResponseKind.methodResponse	
+fault	nerdtalk.html#fault	XmlRpcResponseKind.fault	
+XmlRpcResponseKind	nerdtalk.html#XmlRpcResponseKind	nerdtalk: XmlRpcResponseKind	
+XmlRpcResponse	nerdtalk.html#XmlRpcResponse	nerdtalk: XmlRpcResponse	
+XmlRpcType	nerdtalk.html#XmlRpcType	nerdtalk: XmlRpcType	
+`[]`	nerdtalk.html#[],XmlRpcType,string	nerdtalk: `[]`(this: XmlRpcType; key: string): XmlRpcType	
+`~=`	nerdtalk.html#~=,XmlRpcType,XmlRpcType	nerdtalk: `~=`(lhs, rhs: XmlRpcType): bool	
+`==`	nerdtalk.html#==,XmlRpcType,XmlRpcType	nerdtalk: `==`(lhs, rhs: XmlRpcType): bool	
+`==`	nerdtalk.html#==,XmlRpcResponse,XmlRpcResponse	nerdtalk: `==`(lhs, rhs: XmlRpcResponse): bool	
+xrarray	nerdtalk.html#xrarray.t	nerdtalk: xrarray()	
+`?:`	nerdtalk.html#?:,T	nerdtalk: `?:`[T](encode: T): XmlRpcType	
+`from`	nerdtalk.html#from.m,typed	nerdtalk: `from`(body: typed): untyped	
+to	nerdtalk.html#to,XmlRpcType,typedesc[T]	nerdtalk: to[T](this: XmlRpcType; t: typedesc[T]): T	
+`:!`	nerdtalk.html#:!,string	nerdtalk: `:!`(body: string): XmlRpcResponse	
+xmlRpcSpec	nerdtalk.html#xmlRpcSpec.m,untyped	nerdtalk: xmlRpcSpec(body: untyped): untyped	
+`$`	nerdtalk.html#$,XmlRpcType	nerdtalk: `$`(this: XmlRpcType): string	
+getMethodCall	nerdtalk.html#getMethodCall,string,varargs[XmlRpcType]	nerdtalk: getMethodCall(name: string; params: varargs[XmlRpcType]): string	
