@@ -1,0 +1,14 @@
+Geolocation	webgeolocation.html#Geolocation	webgeolocation: Geolocation	
+GeolocationPosition	webgeolocation.html#GeolocationPosition	webgeolocation: GeolocationPosition	
+GeolocationCoordinates	webgeolocation.html#GeolocationCoordinates	webgeolocation: GeolocationCoordinates	
+GeolocationPositionErrorCode	webgeolocation.html#GeolocationPositionErrorCode	webgeolocation: GeolocationPositionErrorCode	
+GeolocationPositionError	webgeolocation.html#GeolocationPositionError	webgeolocation: GeolocationPositionError	
+OnSuccess	webgeolocation.html#OnSuccess	webgeolocation: OnSuccess	
+OnError	webgeolocation.html#OnError	webgeolocation: OnError	
+GeolocationOptions	webgeolocation.html#GeolocationOptions	webgeolocation: GeolocationOptions	
+geolocation	webgeolocation.html#geolocation_2	webgeolocation: geolocation	
+isGeolocationAvailable	webgeolocation.html#isGeolocationAvailable	webgeolocation: isGeolocationAvailable(): bool	
+newGelocationOptions	webgeolocation.html#newGelocationOptions,Natural,Natural,bool	webgeolocation: newGelocationOptions(maximumAge, timeout: Natural; enableHighAccuracy: bool): GeolocationOptions	
+getCurrentPosition	webgeolocation.html#getCurrentPosition,Geolocation,OnSuccess,OnError,GeolocationOptions	webgeolocation: getCurrentPosition(gelocation: Geolocation; success: OnSuccess;\n                   error: OnError = nil; options: GeolocationOptions = nil): void	
+watchPosition	webgeolocation.html#watchPosition,Geolocation,OnSuccess,OnError,GeolocationOptions	webgeolocation: watchPosition(gelocation: Geolocation; success: OnSuccess; error: OnError = nil;\n              options: GeolocationOptions = nil): cint	
+clearWatch	webgeolocation.html#clearWatch,Geolocation,cint	webgeolocation: clearWatch(gelocation: Geolocation; watchId: cint): void	
